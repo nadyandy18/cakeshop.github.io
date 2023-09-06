@@ -1,0 +1,142 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pkwu</title>
+    </head>
+    <style>
+        *{
+            overflow: hidden;
+        }
+
+        header{ 
+        position:absolute; 
+        background: #ffffff; 
+        top: 0; 
+        left: 0; 
+        padding: 0 100px; 
+        width: 100%; 
+        height: 70px; 
+        box-sizing: border-box; 
+    } 
+    .produk{ 
+        color: #000000; 
+        height: 60px;
+        margin-top: 7px;
+        line-height: 60px; 
+        font-size: 25px; 
+        float: left;
+        font-weight: bold; 
+    } 
+    .menu{ 
+        color: #000000; 
+        height: 60px; 
+        line-height: 60px; 
+        font-size: 18px; 
+        margin-top: 7px;
+        float: left;
+        font-weight: bold; 
+    } 
+    header nav{ 
+        float:right; 
+    } 
+    header nav ul{ 
+        margin:0; 
+        padding:0; 
+        display: flex; 
+
+    } 
+    header nav ul li{ 
+        list-style:none; 
+    } 
+    header nav ul li a{ 
+        color:rgb(0, 0, 0); 
+        height:60px; 
+        line-height: 60px; 
+        padding: 0 20px; 
+        text-decoration: none; 
+        display: block; 
+    } 
+    header nav ul li a:hover, 
+    header nav ul li a:active{ 
+        color:rgb(0, 0, 0); 
+    }
+
+        .container {
+        background-color: #fa9c9c;
+        top: -5px;   
+        padding: 0 ;  
+        border-radius: 5px;   
+        width: 100%;  
+        height: 100%;  
+        margin: 0;
+        overflow: hidden;
+        }
+
+        .ck {
+            margin-left: 310px;
+            margin-top: -180px;
+        }
+
+        .gmb {
+            margin-left: 10px;
+            margin-top: 150px;    
+            width: 285px;
+            height: 280px;
+            border-radius: 20px;
+        }
+
+        .dsk {
+            margin-left: 310px;
+            margin-top: 5px;
+        }
+
+        .tls {
+            margin-top: -38px;
+            margin-left: 960px;
+        }
+
+        .button{
+            position: absolute;
+            display: inline-block;
+            background-color: #ffb5b5;
+            color:black;
+            padding: 1rem 2rem;
+            font-size: 16px;
+            text-decoration: none;
+            border-radius: 5px;
+            top: 400px;
+            left: 1000px;
+            width: 95px;
+            height: 20px;
+            box-shadow: 0px 0px 10px rgb(0, 0, 0.1);
+            font-weight: bold;
+            transition: background-color 0.3 ease;
+        }
+
+        .button:hover{
+            background-color: #B04759;
+            color: white;
+        }
+    </style>
+
+    <body>
+        <header>
+            <div class="produk">CAKE SHOP</div>
+        <nav>
+            <ul class="menu">
+                <li><a href="">HOME</a></li>
+                <li><a href="" class="active">CONTACT</a></li>
+                <li><a href="">ABOUT US</a></li>
+            </ul>
+            </nav>
+        </header>
+        <div class="container">
+                <img src="strw1.jpeg" class="gmb">
+            <h1 class="ck">CAKE</h1>
+            <p class="dsk">There are various types of cakes such as Pastries, Butter cake, Sponge cakes, Layer cakes and Pies.</p>
+            <a href="" class="button">TRY THISS!!</a>
+        </div>
+    </body>
+</html>
